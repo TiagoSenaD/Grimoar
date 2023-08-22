@@ -8,7 +8,7 @@ all: Mute_Aplicaton
 
 
 Aplicaton:
-	$(CC) Sandbox_APP.cpp -I$(INCLUDES) -lGrimoar -L./  -Wl,-rpath=$(LIBPATH) -o Sandbox
+	$(CC) Sandbox_APP.cpp -I$(INCLUDES) -lGrimoar -L./  -Wl,-rpath=$(LIBPATH) -o sandbox
 
 Mute_Aplicaton:
-	@$(CC) Sandbox_APP.cpp -I$(INCLUDES) -lGrimoar -L./  -Wl,-rpath=$(LIBPATH) -o Sandbox
+	@$(CC) Sandbox_APP.cpp -I$(INCLUDES) -lGrimoar -L./  -Wl,-rpath=$(LIBPATH) -o sandbox
